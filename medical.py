@@ -4,7 +4,7 @@ from tkinter import ttk
 class MedicalExpertSystem:
     def __init__(self, root):
         self.root = root
-        self.root.title("Medical Expert System")
+        self.root.title("Medical Expert App")
 
         # Create a style for a more modern look
         style = ttk.Style()
@@ -17,7 +17,7 @@ class MedicalExpertSystem:
         frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
         # Add a title label
-        title_label = ttk.Label(frame, text="Welcome to the Medical Expert System", style='TLabel')
+        title_label = ttk.Label(frame, text="Welcome to the Medical Expert App", style='TLabel')
         title_label.grid(row=0, column=0, columnspan=3, pady=10)
 
         # Add instructions
